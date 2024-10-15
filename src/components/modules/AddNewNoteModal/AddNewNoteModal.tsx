@@ -24,6 +24,8 @@ export default function AddNewNoteModal({ display, changeDisplayHandler }: AddNe
         
         dispatch({ type: 'ADD_NOTE', payload: newNote });
         changeDisplayHandler(false)
+        setNote("")
+        setDeadline(1)
     }
     return (
         <div className={`flex items-center justify-center w-full h-screen absolute top-0 left-0 transition-all ${display ? 'opacity-100 visible': 'opacity-0 invisible'}`}>
