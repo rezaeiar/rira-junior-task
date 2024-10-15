@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'KalamehWeb';
+    font-weight: 300;
+    src: url(/src/assets/fonts/kalameh/Standard/WebFonts/fonts/woff2/KalamehWeb-Thin.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'KalamehWeb';
+    font-weight: 400;
+    src: url(/src/assets/fonts/kalameh/Standard/WebFonts/fonts/woff2/KalamehWeb-Regular.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'KalamehWeb';
+    font-weight: 700;
+    src: url(/src/assets/fonts/kalameh/Standard/WebFonts/fonts/woff2/KalamehWeb-Bold.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'KalamehWeb';
+    font-weight: 900;
+    src: url(/src/assets/fonts/kalameh/Standard/WebFonts/fonts/woff2/KalamehWeb-Black.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'KalamehWebFaNum';
+    font-weight: 300;
+    src: url(/src/assets/fonts/kalameh/Farsi_Numerals/WebFonts/fonts/woff2/KalamehWebFaNum-Thin.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'KalamehWebFaNum';
+    font-weight: 400;
+    src: url(/src/assets/fonts/kalameh/Farsi_Numerals/WebFonts/fonts/woff2/KalamehWebFaNum-Regular.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'KalamehWebFaNum';
+    font-weight: 700;
+    src: url(/src/assets/fonts/kalameh/Farsi_Numerals/WebFonts/fonts/woff2/KalamehWebFaNum-Bold.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'KalamehWebFaNum';
+    font-weight: 900;
+    src: url(/src/assets/fonts/kalameh/Farsi_Numerals/WebFonts/fonts/woff2/KalamehWebFaNum-Black.woff2) format('woff2');
+}
