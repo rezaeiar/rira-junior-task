@@ -14,6 +14,8 @@ export type NotesAction =
 
 const initialState: NotesState = {
     notes: [
+        // Default notes
+        // You can delete these notes
         {
             created_at: new Date("1971-10-10T19:27:26.831Z"),
             deadline: 7,
